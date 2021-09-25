@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 ### Advntage
-.It give you for future IT business
-.It can be change your future
-.It will change carrier of software industy
+* It give you for future IT business
+* It can be change your future
+* It will change carrier of software industy
 
