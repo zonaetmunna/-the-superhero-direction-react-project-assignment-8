@@ -13,7 +13,7 @@ const Ceos = () => {
      const handleDetails = (ceo) => {
           const newDetails = [...details, ceo];
           setDetails(newDetails);
-          console.log(details);
+
      }
 
      return (
