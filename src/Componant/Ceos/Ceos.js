@@ -19,7 +19,7 @@ const Ceos = () => {
      return (
           <div>
 
-               <div class="row m-3">
+               <div class="row m-2">
                     <div class="col-lg-9">
                          <div class="row">
                               {

@@ -11,13 +11,22 @@ const Ceo = (props) => {
 
      return (
 
+
+          /*  <div class="card bg-dark text-white">
+                <img src={imgage} class="card-img" alt="..." />
+                <div class="card-img-overlay">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
+                     <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+           </div>
+  */
+
           <div className="col-md-4">
-               <div class="card mb-3 bg-dark   p-2" style={{ height: "400px" }}>
-                    <div class="row  align-items-center">
-                         <div class="col-md-4">
-                              <img src={imgage} class="img-fluid rounded-circle" alt="..." />
-                         </div>
-                         <div class="col-md-8">
+               <div class="card mb-3 bg-dark " style={{ height: "400px" }}>
+                    <div class="row">
+
+                         <div class="col-md-8 ">
                               <div class="card-body">
                                    <h3 class="text-white">{name}</h3>
                                    <p className="text-white">Company : {company}</p>
@@ -28,11 +37,12 @@ const Ceo = (props) => {
 
                               </div>
                          </div>
+                         <div class="col-md-4 ">
+                              <img src={imgage} class="img-fluid rounded " alt="..." />
+                         </div>
                     </div>
                </div>
-          </div >
-
-
+          </div>
 
 
      );
