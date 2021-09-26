@@ -1,7 +1,7 @@
 # TOP SOFTWARE CEO FOUNDATION
 
 
-This project was bootstrapped with  (https://best-ceo-team-815428.netlify.app/).
+Go to our live site:  (https://best-ceo-team-815428.netlify.app/).
 
 ## Available Scripts
 
