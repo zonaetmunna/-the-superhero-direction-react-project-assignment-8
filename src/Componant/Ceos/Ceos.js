@@ -3,13 +3,17 @@ import Ceo from '../Ceo/Ceo';
 import Details from './Details/Details';
 
 const Ceos = () => {
+
      const [ceos, setCeos] = useState([]);
      const [details, setDetails] = useState([]);
+
      useEffect(() => {
           fetch('./ceo.JSON')
                .then(res => res.json())
                .then(data => setCeos(data))
      }, [])
+
+     // handle event
      const handleDetails = (ceo) => {
           const newDetails = [...details, ceo];
           setDetails(newDetails);
@@ -29,18 +33,13 @@ const Ceos = () => {
                                         handleDetails={handleDetails}
                                    ></Ceo>)
                               }
-
                          </div>
 
                     </div>
-                    <div class="col-lg-3 ">
+                    <div class="col-lg-3 p-4 ">
                          <Details details={details}></Details>
-
-
                     </div>
                </div >
-
-
           </div>
      );
 };

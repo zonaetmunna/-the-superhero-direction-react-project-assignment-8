@@ -11,17 +11,14 @@ const Details = (props) => {
 
      return (
           <div className=" details p-3">
-               <h4>CEOs Added : <span className="text-primary">{details.length}</span></h4>
-               <p>Total Invest : <span className="text-primary"> $ {totalInvest}</span></p>
+               <h4><i class="fas fa-user"></i>CEOs Added : <span className="text-primary">{details.length}</span></h4>
+               <p>Total Invest : <span className="text-primary"> <i class="fas fa-dollar-sign"></i> {totalInvest}</span></p>
                <div className="text-primary fw-bold">
                     {
                          details.map(detail => <li>{detail.name}</li>)
 
                     }
                </div>
-
-
-
           </div>
      );
 };
