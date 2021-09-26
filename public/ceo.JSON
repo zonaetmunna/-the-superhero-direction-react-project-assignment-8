@@ -105,8 +105,41 @@
           "address": " Copenhagen, Denmark",
           "category": "Financial Software",
           "age": 34,
-          "invest": 4045000000,
+          "invest": 445000000,
           "imgage": "https://www.thesoftwarereport.com/wp-content/uploads/2020/09/10.-Simon-Paris-Finastra-420x420.jpg",
           "salary": 2000450000
+     },
+     {
+          "id": 11,
+          "company": " Kyle Ferguson",
+          "name": " Confirmit",
+          "address": " London, U.K.",
+          "category": "arketing Technology",
+          "age": 34,
+          "invest": 40000000,
+          "imgage": "https://www.thesoftwarereport.com/wp-content/uploads/2020/09/12.-Kyle-Ferguson-Confirmit-420x420.jpg",
+          "salary": 2000000
+     },
+     {
+          "id": 12,
+          "company": " BluJay Solutions",
+          "name": " Andrew Kirkwood",
+          "address": " London, U.K.",
+          "category": "arketing Technology",
+          "age": 40,
+          "invest": 15000000,
+          "imgage": "https://www.thesoftwarereport.com/wp-content/uploads/2020/09/13.-Andrew-Kirkwood-BluJay-Solutions.jpg",
+          "salary": 12000000
+     },
+     {
+          "id": 13,
+          "company": "Canonical",
+          "name": " Mark Shuttleworth",
+          "address": " London, U.K.",
+          "category": "Systems Management",
+          "age": 40,
+          "invest": 25000000,
+          "imgage": "https://www.thesoftwarereport.com/wp-content/uploads/2020/09/14.-Mark-Shuttleworth-Canonical-420x420.jpg",
+          "salary": 13000000
      }
 ]
